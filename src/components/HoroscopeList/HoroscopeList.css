@@ -1,0 +1,14 @@
+.horoscope-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.horoscope-grid__locale {
+  padding: 20px 24px 4px 22px;
+}
+
+.horoscope-grid__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
